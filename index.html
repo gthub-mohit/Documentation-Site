@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDocs // Engineering log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        Engineering log / <span>documentation</span>
+        <div class="menu-btn">☰</div>
+    </nav>
+    <aside>
+        <div class="heading">CORE FOUNDATIONS</div>
+        <div class="topic">Introduction</div>
+        <div class="topic">C</div>
+        <div class="topic">C++</div>
+        <div class="topic">HTML-CSS</div>
+        <div class="topic">Javascript</div>
+        <div class="heading">PROBLEM SOLVING</div>
+        <div class="topic">Competitive Programming</div>
+        <div class="topic">Data Structure</div>
+        <div class="heading">SPECIALIZATIONS</div>
+        <div class="topic">Game Development</div>
+        <div class="topic">Robotics</div>
+    </aside>
+    <main>
+        <div class="intro">
+            <H2>Introduction</H2>
+            <p>This digital notebook tracks my evolution across various computer science domains. It is built for
+                clarity and fast retrieval of core concepts rather than exhaustive documentation.</p>
+            <div class="principles">
+                <h3>PRINCIPLES</h3>
+                <ol>
+                    <li>Prefer high-level intuition over jargon.</li>
+                    <li>Document the "why" alongside the "how".</li>
+                    <li>Keep snippets minimal and self-contained.</li>
+                </ol>
+            </div>
+            <div class="current">
+                <h2>Current Focus</h2>
+                <p>A personal engineering log documenting concepts, patterns, and learnings across web development,
+                    problem solving, and systems fundamentals.</p>
+            </div>
+        </div>
+        <div class="c">
+            <h2>C Programming Language</h2>
+            <p>C is a</p>
+            <ul>
+                <li>Procedural programming language</li>
+                <li>Fast, close to hardware</li>
+                <li>Widely used in OS, embedded systems, compilers</li>
+            </ul>
+            <h2>Basic Structure of C program</h2>
+            <ul class="code">
+                <li>#include &lt;stdio.h&gt;</li>
+                </li>
+                <li>int main() </li>
+                <li>{</li>
+                <li>printf("Hello, World!");</li>
+                <li>return 0;</li>
+                <li>}</li>
+            </ul>
+            <h3>Explaination</h3>
+            <ul>
+                <li>#include &lt;stdio.h&gt; → standard input/output</li>
+                <li>main() → program execution starts here</li>
+                <li>return 0; → successful execution</li>
+            </ul>
+            <h2>Data Types</h2>
+            <ul class="code">
+                <li>int a = 10;</li>
+                <li>float b = 3.14;</li>
+                <li>double c = 3.14159;</li>
+                <li>char d = 'A';</li>
+            </ul>
+            <h2>Variables & Constants</h2>
+            <ul class="code">
+                <li>int x = 5;</li>
+                <li>const float PI = 3.14;</li>
+            </ul>
+            <p class="muted">
+                This section is intentionally kept concise. Deeper notes will be added when revisited during problem
+                solving and projects.
+            </p>
+        </div>
+        <div class="cpp">
+            <h2>C++ Programming Language</h2>
+            <p>C++ is a</p>
+            <ul>
+
+                <li>Object-Oriented + Procedural language</li>
+                <li>Extension of C</li>
+                <li>Used in competitive programming, system software, game engines</li>
+            </ul>
+            <h2>Basic Structure of C++ program</h2>
+            <ul class="code">
+                <li>#include &lt;iostream&gt; or &lt;bits/stdc++.h&gt;</li>
+                <li>int main() </li>
+                <li>{</li>
+                <li>cout<<"Hello, World!";</li>
+                <li>return 0;</li>
+                <li>}</li>
+            </ul>
+            <h3>Explaination</h3>
+            <ul>
+                <li>#include &lt;iostream&gt; → standard input/output</li>
+                <li>main() → program execution starts here</li>
+                <li>return 0; → successful execution</li>
+            </ul>
+            <h2>Data Types</h2>
+            <ul class="code">
+                <li>int a = 10;</li>
+                <li>float b = 3.14;</li>
+                <li>double c = 3.14159;</li>
+                <li>char d = 'A';</li>
+            </ul>
+            <h2>Variables & Constants</h2>
+            <ul class="code">
+                <li>int x = 5;</li>
+                <li>const float PI = 3.14;</li>
+            </ul>
+            <p class="muted">
+                This section is intentionally kept concise. Deeper notes will be added when revisited during problem
+                solving and projects.
+            </p>
+        </div>
+        <div class="html-css">
+            <h2>HTML (HyperText Markup Language)</h2>
+            <p>HTML is a</p>
+            <ul>
+                <li>Markup language for structuring web pages</li>
+                <li>Defines content, not styling or logic</li>
+                <li>Foundation of every website</li>
+            </ul>
+
+            <h2>Basic Structure of HTML Document</h2>
+            <div class="code">
+                <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+            </div>
+
+            <h3>Explanation</h3>
+            <ul>
+                <li>&lt;!DOCTYPE html&gt; → Defines HTML5 document</li>
+                <li>&lt;head&gt; → Metadata (title, links, meta tags)</li>
+                <li>&lt;body&gt; → Visible page content</li>
+            </ul>
+
+            <h2>Common HTML Tags</h2>
+            <div class="code">
+                <pre><code>
+&lt;h1&gt;Heading&lt;/h1&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;a href="#"&gt;Link&lt;/a&gt;
+&lt;img src="image.jpg"&gt;
+&lt;div&gt;Block Container&lt;/div&gt;
+        </code></pre>
+            </div>
+            <h2>CSS (Cascading Style Sheets)</h2>
+            <p>CSS is used to</p>
+            <ul>
+                <li>Style HTML elements</li>
+                <li>Control layout, spacing, colors, fonts</li>
+                <li>Make websites responsive</li>
+            </ul>
+
+            <h2>Basic CSS Syntax</h2>
+            <div class="code">
+                <pre><code>
+selector {
+    property: value;
+}
+        </code></pre>
+            </div>
+
+            <h3>Example</h3>
+            <div class="code">
+                <pre><code>
+body {
+    background-color: #0f1115;
+    color: white;
+    font-family: Inter, sans-serif;
+}
+        </code></pre>
+            </div>
+
+            <h2>Common Properties</h2>
+            <div class="code">
+                <pre><code>
+color
+background-color
+margin
+padding
+border
+display
+position
+        </code></pre>
+            </div>
+
+            <p class="muted">
+                CSS depth increases with practice. Layout systems like Flexbox and Grid
+                will be documented when used in projects.
+            </p>
+        </div>
+        <div class="js">
+            <p class="working">
+                JavaScript is being learned through hands-on projects.
+                Notes will be added once patterns become consistent and reusable.
+            </p>
+
+        </div>
+        <div class="cp">
+            <h2>Competitive Programming</h2>
+            <p>Competitive programming focuses on solving algorithmic problems efficiently under time and memory
+                constraints.
+                This section documents patterns, observations, and approaches discovered while solving problems rather
+                than exhaustive theory.<br>
+                Current emphasis:
+            </p>
+            <ul>
+                <li>Translating problem statements into clear logic</li>
+                <li>Time and space complexity intuition</li>
+                <li>Learning through contests and practice problems</li>
+            </ul>
+            <p>Notes will grow organically as problem-solving experience increases.</p>
+        </div>
+        <div class="dsa">
+            <h2>Data Structures</h2>
+            <p>Data structures are the foundation of efficient problem solving and system design.
+                This section records practical understanding of structures based on usage rather than memorized
+                definitions.<br>
+                Focus Areas:
+            </p>
+            <ul>
+                <li>Understanding when to use a structure, not just how</li>
+                <li>Trade-offs between time, space, and implementation complexity</li>
+                <li>Reinforcing concepts through real problems</li>
+            </ul>
+            <p>Detailed notes will be added as structures are applied in competitive programming and projects.</p>
+        </div>
+        <div class="game">
+            <h2>Game Development</h2>
+            <p>Game development combines programming, mathematics, and real-time system thinking.
+                This section captures learnings related to game loops, movement logic, and performance
+                considerations.<br>
+                Current Scope:
+            </p>
+            <ul>
+                <li>Core game loop concepts</li>
+                <li>Frame-rate independent logic</li>
+                <li>Mathematical foundations used in games</li>
+            </ul>
+            <p>Advanced topics will be added when implemented in actual game projects.</p>
+        </div>
+        <div class="robotics">
+            <h2>Robotics</h2>
+            <p>
+                Robotics bridges software with the physical world, requiring careful handling of timing, control, and
+                feedback.
+                This section documents conceptual understanding rather than hardware-specific implementations.<br>
+                Key concepts
+            </p>
+            <ul>
+                <li>Control systems intuition</li>
+                <li>Sensor–actuator interaction</li>
+                <li>Reliability and real-world constraints</li>
+            </ul>
+            <p>Notes will expand alongside hands-on experimentation and deeper study.</p>
+        </div>
+        
+    </main>
+    
+<script>
+    
+    const menuButton = document.querySelector('.menu-btn');
+    const asideSidebar = document.querySelector('aside');
+    const sidebarTopics = document.querySelectorAll('.topic');
+    const contentSections = [
+        document.querySelector('.intro'),
+        document.querySelector('.c'),
+        document.querySelector('.cpp'),
+        document.querySelector('.html-css'),
+        document.querySelector('.js'),
+        document.querySelector('.cp'),
+        document.querySelector('.dsa'),
+        document.querySelector('.game'),
+        document.querySelector('.robotics')
+    ];
+
+    
+    function init() {
+        contentSections.forEach(section => {
+            if (section) section.classList.remove('active');
+        });
+        if (contentSections[0]) contentSections[0].classList.add('active');
+    }
+
+ 
+    sidebarTopics.forEach((topic, index) => {
+        topic.addEventListener('click', () => {
+            
+            contentSections.forEach(section => {
+                if (section) section.classList.remove('active');
+            });
+            
+            if (contentSections[index]) {
+                contentSections[index].classList.add('active');
+            }
+
+            
+            if (window.innerWidth <= 768) {
+                asideSidebar.classList.remove('active');
+            }
+            
+          
+            window.scrollTo(0, 0);
+        });
+    });
+
+
+    menuButton.addEventListener('click', () => {
+        asideSidebar.classList.toggle('active');
+    });
+
+    init();
+</script>
+</body>
+
+</html>

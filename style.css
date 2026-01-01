@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+main > div {
+    display: none;
+}
+
+main > div.active {
+    display: block;
+}
+
+body{
+    background-color: #0f1115;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+nav span{
+    color:#94a3b8;
+}
+
+nav {
+    color: white;
+    font-weight: 400;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 2000; 
+    background-color: #0f1115; 
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #282d34d2;
+}
+aside {
+    padding-top: 2vh;
+    border-right: 1px solid #4b5563;
+    height: 100%;
+    width: 280px;
+    left: 0;
+    background-color: #16191f;
+    position: fixed;
+    top: 60px; 
+}
+.heading{
+    color: #4b5563;
+    padding-left: 2vw;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
+}
+.topic{
+    color: #94a3b8;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+    font-size: 15px;
+    cursor: pointer;
+}
+.topic:hover {
+    color: white;
+}
+
+main {
+    margin-left: 280px;
+    padding-left: 3vw;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    aside {
+        
+        top: 60px;
+    }
+    
+    main {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+}
+.intro h2{
+    color: white;
+    padding-top: 7vh;
+    font-size: 35px;
+    padding-bottom: 3vh;
+}
+.intro p{
+    color: #94a3b8;
+    width: 50%;
+    padding-top: 2vh;
+    line-height: 1.75;
+    padding-bottom: 5vh;
+}
+.principles{
+    border: 1px solid #4b5563;
+    padding-top:2vh;
+    border-radius: 5px;
+    width: 60%;
+    background-color: rgba(129, 140, 248, 0.05);
+
+}
+.principles h3{
+    color:white;
+    padding-left:2vw;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 2vh;
+}
+.principles ol{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+}
+.principles ol li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+.current {
+    width: 60%;
+}
+.current h2{
+    font-size: 25px;
+    border-bottom: 1px solid #4b5563;
+}
+.current p{
+    width: 80%;
+}
+.c{
+    margin-bottom: 6rem;
+}
+.c h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;
+}
+.c ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.c ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+.c p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+}
+.code{
+    list-style: none;
+    line-height: 1.2;
+    padding-left: 5vh;
+    padding-top: 1.5vh;
+    border: 1px solid #4b5563;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgba(129, 140, 248, 0.05);
+}
+.c h3{
+    color: white;
+    padding: 2vh;
+}
+.cpp h3{
+    color: white;
+    padding: 2vh;
+}
+.html-css h3{
+    color: white;
+    padding: 2vh;
+}
+.muted {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px dashed #4b5563;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpp h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;
+}
+.cpp ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.cpp ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+.cpp p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+}
+.html-css h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;
+}
+
+.html-css p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+}
+.html-css ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.html-css ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+
+pre{
+    color: #94a3b8;
+}
+.working{
+    color: #94a3b8;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 35px;
+}
+
+.cp h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;    
+}
+.cp p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+    width: 60%;
+}
+.cp ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.cp ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+.dsa h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;    
+}
+.dsa p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+    width: 60%;
+}
+.dsa ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.dsa ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+.game h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;    
+}
+.game p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+    width: 60%;
+}
+.game ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.game ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+.robotics h2{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+    padding-bottom: 3vh;    
+}
+.robotics p{
+    color: #94a3b8;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    line-height: 1.75;
+    padding-bottom: 1vh;
+    width: 60%;
+}
+.robotics ul{
+    padding-left: 3vw;
+    padding-bottom: 1.5vh;
+    
+}
+.robotics ul li{
+    padding-bottom: 1vh;
+    color: #94a3b8;
+}
+
+@media screen and (max-width: 768px) {
+    aside {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 1000;
+        width: 250px;
+    }
+
+    aside.active {
+        transform: translateX(0);
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+        padding-right: 3vw;
+    }
+
+    .intro p, .current, .cp p, .dsa p, .game p, .robotics p, .principles, .code {
+        width: 90%;
+    }
+
+    .menu-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: 1rem;
+        cursor: pointer;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .menu-btn {
+        display: none;
+    }
+}
